@@ -1,0 +1,25 @@
+{
+  "name": "@4prop-shared/utils",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A GOOD DESCRIPTION",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/utils.umd.js",
+  "module": "./dist/utils.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/utils.es.js",
+      "require": "./dist/utils.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.2.11"
+  }
+}
