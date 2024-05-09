@@ -1,21 +1,17 @@
 {
   "name": "@4prop/shared-utils",
   "type": "module",
-  "version": "2.1.0",
+  "version": "1.1.0",
   "description": "EACH 4prop shared utilities",
   "files": [
     "dist"
   ],
-  "module": "./dist/index.js",
+  "main": "./dist/utils.umd.js",
+  "module": "./dist/utils.es.js",
   "exports": {
     ".": {
-      "import": "./dist/each_password_generator.js"
-    },
-    "./each_password_generator": {
-      "import": "./dist/each_password_generator.js"
-    },
-    "./misc": {
-      "import": "./dist/misc.js"
+      "import": "./dist/utils.es.js",
+      "require": "./dist/utils.umd.js"
     }
   },
   "scripts": {
