@@ -2,7 +2,7 @@
   "name": "@4prop/shared-utils",
   "type": "module",
   "version": "1.0.4",
-  "description": "A GOOD DESCRIPTION",
+  "description": "EACH 4prop shared utilities",
   "files": [
     "dist"
   ],
@@ -18,6 +18,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "prepublish": "npm version minor",
     "publish": "npm publish --access public"
   },
   "devDependencies": {
