@@ -1,6 +1,6 @@
-function o(l) {
-  console.log(`hello ${l}`);
+function l(o) {
+  console.log(`hello ${o}`);
 }
 export {
-  o as default
+  l as sayHello
 };
