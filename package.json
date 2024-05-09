@@ -1,7 +1,7 @@
 {
   "name": "@4prop/shared-utils",
   "type": "module",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "EACH 4prop shared utilities",
   "files": [
     "dist"
