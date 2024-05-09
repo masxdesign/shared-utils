@@ -6,12 +6,16 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/utils.umd.js",
-  "module": "./dist/utils.es.js",
+  "module": "./dist/index.js",
   "exports": {
     ".": {
-      "import": "./dist/utils.es.js",
-      "require": "./dist/utils.umd.js"
+      "import": "./dist/each_password_generator.js"
+    },
+    "./each_password_generator": {
+      "import": "./dist/each_password_generator.js"
+    },
+    "./misc": {
+      "import": "./dist/misc.js"
     }
   },
   "scripts": {
